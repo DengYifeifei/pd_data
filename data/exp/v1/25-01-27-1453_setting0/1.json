@@ -1,0 +1,1 @@
+{"config_number": 0, "parameters": {"points_per_cent": 2, "time_limit": 5, "correct_responses": ["f", "j"], "combination_num": 8, "gaze_tolerance": 1.5, "triggers": "<triggers.Triggers object at 0x3132f0a90>"}, "main_data": [], "practice_data": [], "window": [3840, 2160], "bonus": 0.0}

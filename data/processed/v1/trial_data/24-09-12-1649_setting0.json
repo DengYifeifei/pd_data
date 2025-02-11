@@ -1,0 +1,4862 @@
+[
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 52.19012462499995,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 52.19021204166654,
+                "event": "start recording"
+            },
+            {
+                "time": 52.31588241666657,
+                "event": "start"
+            },
+            {
+                "time": 52.3206532083334,
+                "event": "show fixation"
+            },
+            {
+                "time": 52.82659370833335,
+                "event": "show cue"
+            },
+            {
+                "time": 54.333965416666615,
+                "event": "show fixation"
+            },
+            {
+                "time": 54.84201237499997,
+                "event": "start sound"
+            },
+            {
+                "time": 55.342227458333355,
+                "event": "start decision window"
+            },
+            {
+                "time": 57.67117254166658,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 57.67129383333338,
+                "event": "done"
+            }
+        ],
+        "trial_index": 1,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 57.692969999999946,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 57.69301804166662,
+                "event": "start recording"
+            },
+            {
+                "time": 57.81808924999996,
+                "event": "start"
+            },
+            {
+                "time": 57.82021550000002,
+                "event": "show fixation"
+            },
+            {
+                "time": 58.32600816666661,
+                "event": "show cue"
+            },
+            {
+                "time": 59.83255270833331,
+                "event": "show fixation"
+            },
+            {
+                "time": 60.34213104166656,
+                "event": "start sound"
+            },
+            {
+                "time": 60.842273999999975,
+                "event": "start decision window"
+            },
+            {
+                "time": 64.36833504166657,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 64.36847729166664,
+                "event": "done"
+            }
+        ],
+        "trial_index": 2,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 64.3876337083334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 64.38768954166665,
+                "event": "start recording"
+            },
+            {
+                "time": 64.51479124999992,
+                "event": "start"
+            },
+            {
+                "time": 64.51719087499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 65.02248862499994,
+                "event": "show cue"
+            },
+            {
+                "time": 66.52862558333334,
+                "event": "show fixation"
+            },
+            {
+                "time": 67.03795133333335,
+                "event": "start sound"
+            },
+            {
+                "time": 67.5381314166666,
+                "event": "start decision window"
+            },
+            {
+                "time": 70.79880533333335,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 70.79892183333334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 3,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 70.81701220833338,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 70.81706554166658,
+                "event": "start recording"
+            },
+            {
+                "time": 70.94267812499993,
+                "event": "start"
+            },
+            {
+                "time": 70.94468625000002,
+                "event": "show fixation"
+            },
+            {
+                "time": 71.44979295833332,
+                "event": "show cue"
+            },
+            {
+                "time": 72.9560354583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 73.46545537499992,
+                "event": "start sound"
+            },
+            {
+                "time": 73.96564879166658,
+                "event": "start decision window"
+            },
+            {
+                "time": 76.94523333333336,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 76.94534399999998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 4,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 76.96382662500002,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 76.96387391666656,
+                "event": "start recording"
+            },
+            {
+                "time": 77.09017949999998,
+                "event": "start"
+            },
+            {
+                "time": 77.09208174999992,
+                "event": "show fixation"
+            },
+            {
+                "time": 77.5969800416666,
+                "event": "show cue"
+            },
+            {
+                "time": 79.10393191666662,
+                "event": "show fixation"
+            },
+            {
+                "time": 79.61262333333332,
+                "event": "start sound"
+            },
+            {
+                "time": 80.11278654166654,
+                "event": "start decision window"
+            },
+            {
+                "time": 82.63831199999993,
+                "event": "response",
+                "response": "j",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 82.63840370833339,
+                "event": "done"
+            }
+        ],
+        "trial_index": 5,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 82.66331766666656,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 82.66335874999993,
+                "event": "start recording"
+            },
+            {
+                "time": 82.7880091666666,
+                "event": "start"
+            },
+            {
+                "time": 82.79003370833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 83.29558808333331,
+                "event": "show cue"
+            },
+            {
+                "time": 84.80281987499995,
+                "event": "show fixation"
+            },
+            {
+                "time": 85.3159198333334,
+                "event": "start sound"
+            },
+            {
+                "time": 85.81605454166663,
+                "event": "start decision window"
+            },
+            {
+                "time": 88.80959183333334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 88.80971662499996,
+                "event": "done"
+            }
+        ],
+        "trial_index": 6,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 88.82864504166662,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 88.82869949999997,
+                "event": "start recording"
+            },
+            {
+                "time": 88.95469912499993,
+                "event": "start"
+            },
+            {
+                "time": 88.95707325000001,
+                "event": "show fixation"
+            },
+            {
+                "time": 89.46241091666661,
+                "event": "show cue"
+            },
+            {
+                "time": 90.96881304166664,
+                "event": "show fixation"
+            },
+            {
+                "time": 91.48037262499997,
+                "event": "start sound"
+            },
+            {
+                "time": 91.98049766666657,
+                "event": "start decision window"
+            },
+            {
+                "time": 95.82518587499999,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 95.82531608333329,
+                "event": "done"
+            }
+        ],
+        "trial_index": 7,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 95.84465383333338,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 95.84469783333338,
+                "event": "start recording"
+            },
+            {
+                "time": 95.97828849999996,
+                "event": "start"
+            },
+            {
+                "time": 95.98052141666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 96.48514283333338,
+                "event": "show cue"
+            },
+            {
+                "time": 97.99295820833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 98.50212950000002,
+                "event": "start sound"
+            },
+            {
+                "time": 99.00231712499999,
+                "event": "start decision window"
+            },
+            {
+                "time": 102.1583427083333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 102.15844129166658,
+                "event": "done"
+            }
+        ],
+        "trial_index": 8,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 102.17702354166659,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 102.17708599999992,
+                "event": "start recording"
+            },
+            {
+                "time": 102.30397712499996,
+                "event": "start"
+            },
+            {
+                "time": 102.3060867083334,
+                "event": "show fixation"
+            },
+            {
+                "time": 102.81129141666656,
+                "event": "show cue"
+            },
+            {
+                "time": 104.31839816666661,
+                "event": "show fixation"
+            },
+            {
+                "time": 104.83225658333333,
+                "event": "start sound"
+            },
+            {
+                "time": 105.33241391666661,
+                "event": "start decision window"
+            },
+            {
+                "time": 108.21284349999996,
+                "event": "response",
+                "response": "j",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 108.21297312499996,
+                "event": "done"
+            }
+        ],
+        "trial_index": 9,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 108.23134900000002,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 108.23139491666655,
+                "event": "start recording"
+            },
+            {
+                "time": 108.35692674999996,
+                "event": "start"
+            },
+            {
+                "time": 108.35852470833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 108.8639550416666,
+                "event": "show cue"
+            },
+            {
+                "time": 110.3705911666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 110.88030345833329,
+                "event": "start sound"
+            },
+            {
+                "time": 111.38050662499995,
+                "event": "start decision window"
+            },
+            {
+                "time": 114.95269974999997,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 114.95283758333335,
+                "event": "done"
+            }
+        ],
+        "trial_index": 10,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 114.97573229166665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 114.97578033333332,
+                "event": "start recording"
+            },
+            {
+                "time": 115.10080312499997,
+                "event": "start"
+            },
+            {
+                "time": 115.10322487500002,
+                "event": "show fixation"
+            },
+            {
+                "time": 115.60863858333335,
+                "event": "show cue"
+            },
+            {
+                "time": 117.11507374999997,
+                "event": "show fixation"
+            },
+            {
+                "time": 117.62312270833331,
+                "event": "start sound"
+            },
+            {
+                "time": 118.12324066666656,
+                "event": "start decision window"
+            },
+            {
+                "time": 121.5820237083334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 121.58217395833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 11,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 121.60122441666658,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 121.60127991666661,
+                "event": "start recording"
+            },
+            {
+                "time": 121.72997754166659,
+                "event": "start"
+            },
+            {
+                "time": 121.7321485,
+                "event": "show fixation"
+            },
+            {
+                "time": 122.23764995833335,
+                "event": "show cue"
+            },
+            {
+                "time": 123.74471749999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 124.25351679166658,
+                "event": "start sound"
+            },
+            {
+                "time": 124.75368166666658,
+                "event": "start decision window"
+            },
+            {
+                "time": 127.83579804166664,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 127.83592270833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 12,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 127.86010045833336,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 127.86014429166664,
+                "event": "start recording"
+            },
+            {
+                "time": 127.98448137499997,
+                "event": "start"
+            },
+            {
+                "time": 127.9866188333333,
+                "event": "show fixation"
+            },
+            {
+                "time": 128.49224529166656,
+                "event": "show cue"
+            },
+            {
+                "time": 129.99915099999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 130.50729783333338,
+                "event": "start sound"
+            },
+            {
+                "time": 131.0074942916666,
+                "event": "start decision window"
+            },
+            {
+                "time": 134.43315899999993,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 134.43328075,
+                "event": "done"
+            }
+        ],
+        "trial_index": 13,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 134.45165654166658,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 134.45170716666655,
+                "event": "start recording"
+            },
+            {
+                "time": 134.57946637499992,
+                "event": "start"
+            },
+            {
+                "time": 134.58182541666656,
+                "event": "show fixation"
+            },
+            {
+                "time": 135.0872849166666,
+                "event": "show cue"
+            },
+            {
+                "time": 136.5934895416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 137.10212645833337,
+                "event": "start sound"
+            },
+            {
+                "time": 137.6022845,
+                "event": "start decision window"
+            },
+            {
+                "time": 140.27480170833337,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 140.27494170833336,
+                "event": "done"
+            }
+        ],
+        "trial_index": 14,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 140.29350708333334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 140.2935720833333,
+                "event": "start recording"
+            },
+            {
+                "time": 140.4196429166666,
+                "event": "start"
+            },
+            {
+                "time": 140.42196391666664,
+                "event": "show fixation"
+            },
+            {
+                "time": 140.92735216666654,
+                "event": "show cue"
+            },
+            {
+                "time": 142.43426204166656,
+                "event": "show fixation"
+            },
+            {
+                "time": 142.94250304166655,
+                "event": "start sound"
+            },
+            {
+                "time": 143.44264962499994,
+                "event": "start decision window"
+            },
+            {
+                "time": 146.37902620833336,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 146.379147375,
+                "event": "done"
+            }
+        ],
+        "trial_index": 15,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 146.39844212499997,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 146.398494625,
+                "event": "start recording"
+            },
+            {
+                "time": 146.5243661666666,
+                "event": "start"
+            },
+            {
+                "time": 146.5264747916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 147.03164079166663,
+                "event": "show cue"
+            },
+            {
+                "time": 148.53844591666655,
+                "event": "show fixation"
+            },
+            {
+                "time": 149.0461404583333,
+                "event": "start sound"
+            },
+            {
+                "time": 149.5463352083333,
+                "event": "start decision window"
+            },
+            {
+                "time": 153.592399375,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 153.59255616666655,
+                "event": "done"
+            }
+        ],
+        "trial_index": 16,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 153.61263145833334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 153.61268520833335,
+                "event": "start recording"
+            },
+            {
+                "time": 153.73902675,
+                "event": "start"
+            },
+            {
+                "time": 153.74106145833332,
+                "event": "show fixation"
+            },
+            {
+                "time": 154.2464545833334,
+                "event": "show cue"
+            },
+            {
+                "time": 155.75305995833332,
+                "event": "show fixation"
+            },
+            {
+                "time": 156.26431929166654,
+                "event": "start sound"
+            },
+            {
+                "time": 156.76447279166655,
+                "event": "start decision window"
+            },
+            {
+                "time": 159.90435370833336,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 159.90447783333332,
+                "event": "done"
+            }
+        ],
+        "trial_index": 17,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 159.9257015833333,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 159.92579587499995,
+                "event": "start recording"
+            },
+            {
+                "time": 160.05065466666656,
+                "event": "start"
+            },
+            {
+                "time": 160.05281774999992,
+                "event": "show fixation"
+            },
+            {
+                "time": 160.55829658333334,
+                "event": "show cue"
+            },
+            {
+                "time": 162.06491274999996,
+                "event": "show fixation"
+            },
+            {
+                "time": 162.57396712499997,
+                "event": "start sound"
+            },
+            {
+                "time": 163.07414791666656,
+                "event": "start decision window"
+            },
+            {
+                "time": 165.9131461666666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 165.9132755833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 18,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 165.93295454166662,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 165.93301466666662,
+                "event": "start recording"
+            },
+            {
+                "time": 166.05888599999992,
+                "event": "start"
+            },
+            {
+                "time": 166.06098387499992,
+                "event": "show fixation"
+            },
+            {
+                "time": 166.56636116666664,
+                "event": "show cue"
+            },
+            {
+                "time": 168.07301041666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 168.5818359583334,
+                "event": "start sound"
+            },
+            {
+                "time": 169.08203874999992,
+                "event": "start decision window"
+            },
+            {
+                "time": 172.56902087499998,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 172.569130375,
+                "event": "done"
+            }
+        ],
+        "trial_index": 19,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 172.5913631666666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 172.5914135416666,
+                "event": "start recording"
+            },
+            {
+                "time": 172.71719108333332,
+                "event": "start"
+            },
+            {
+                "time": 172.71926687500002,
+                "event": "show fixation"
+            },
+            {
+                "time": 173.22450274999994,
+                "event": "show cue"
+            },
+            {
+                "time": 174.73132108333334,
+                "event": "show fixation"
+            },
+            {
+                "time": 175.24107016666665,
+                "event": "start sound"
+            },
+            {
+                "time": 175.741246875,
+                "event": "start decision window"
+            },
+            {
+                "time": 178.4455884583333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 178.44572341666662,
+                "event": "done"
+            }
+        ],
+        "trial_index": 20,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 178.46488904166654,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 178.46495054166655,
+                "event": "start recording"
+            },
+            {
+                "time": 178.59227033333332,
+                "event": "start"
+            },
+            {
+                "time": 178.59460924999996,
+                "event": "show fixation"
+            },
+            {
+                "time": 179.09987866666654,
+                "event": "show cue"
+            },
+            {
+                "time": 180.6066540833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 181.11481912499994,
+                "event": "start sound"
+            },
+            {
+                "time": 181.6149629583333,
+                "event": "start decision window"
+            },
+            {
+                "time": 184.20916233333332,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 184.20929129166655,
+                "event": "done"
+            }
+        ],
+        "trial_index": 21,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 184.22840537499997,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 184.22845525000002,
+                "event": "start recording"
+            },
+            {
+                "time": 184.35470062499996,
+                "event": "start"
+            },
+            {
+                "time": 184.35709120833337,
+                "event": "show fixation"
+            },
+            {
+                "time": 184.8625463333334,
+                "event": "show cue"
+            },
+            {
+                "time": 186.36985525,
+                "event": "show fixation"
+            },
+            {
+                "time": 186.88236737499994,
+                "event": "start sound"
+            },
+            {
+                "time": 187.38254345833332,
+                "event": "start decision window"
+            },
+            {
+                "time": 190.05120529166663,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 190.05136458333334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 22,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 190.07014183333342,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 190.07020545833336,
+                "event": "start recording"
+            },
+            {
+                "time": 190.19553308333332,
+                "event": "start"
+            },
+            {
+                "time": 190.1976174166665,
+                "event": "show fixation"
+            },
+            {
+                "time": 190.702870125,
+                "event": "show cue"
+            },
+            {
+                "time": 192.20918620833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 192.7195510416667,
+                "event": "start sound"
+            },
+            {
+                "time": 193.2197124999999,
+                "event": "start decision window"
+            },
+            {
+                "time": 197.05067204166664,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 197.05081641666663,
+                "event": "done"
+            }
+        ],
+        "trial_index": 23,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 197.0699925416667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 197.07005466666658,
+                "event": "start recording"
+            },
+            {
+                "time": 197.19812175000004,
+                "event": "start"
+            },
+            {
+                "time": 197.20027291666668,
+                "event": "show fixation"
+            },
+            {
+                "time": 197.70549741666662,
+                "event": "show cue"
+            },
+            {
+                "time": 199.21279687499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 199.72124520833324,
+                "event": "start sound"
+            },
+            {
+                "time": 200.2214247083333,
+                "event": "start decision window"
+            },
+            {
+                "time": 203.14644308333334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 203.14658179166656,
+                "event": "done"
+            }
+        ],
+        "trial_index": 24,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 203.16584745833336,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 203.16588966666666,
+                "event": "start recording"
+            },
+            {
+                "time": 203.29277250000007,
+                "event": "start"
+            },
+            {
+                "time": 203.29486537499986,
+                "event": "show fixation"
+            },
+            {
+                "time": 203.80005616666665,
+                "event": "show cue"
+            },
+            {
+                "time": 205.3069323333333,
+                "event": "show fixation"
+            },
+            {
+                "time": 205.81556525000008,
+                "event": "start sound"
+            },
+            {
+                "time": 206.31571441666654,
+                "event": "start decision window"
+            },
+            {
+                "time": 208.8812560416667,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 208.88139620833329,
+                "event": "done"
+            }
+        ],
+        "trial_index": 25,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 208.90053966666653,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 208.90059608333343,
+                "event": "start recording"
+            },
+            {
+                "time": 209.02674591666653,
+                "event": "start"
+            },
+            {
+                "time": 209.02910662500005,
+                "event": "show fixation"
+            },
+            {
+                "time": 209.53460120833336,
+                "event": "show cue"
+            },
+            {
+                "time": 211.04220341666667,
+                "event": "show fixation"
+            },
+            {
+                "time": 211.550438375,
+                "event": "start sound"
+            },
+            {
+                "time": 212.05060479166661,
+                "event": "start decision window"
+            },
+            {
+                "time": 214.61410070833324,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 214.6142180833334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 26,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 214.6334956249999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 214.6335531666665,
+                "event": "start recording"
+            },
+            {
+                "time": 214.75917716666652,
+                "event": "start"
+            },
+            {
+                "time": 214.76143120833342,
+                "event": "show fixation"
+            },
+            {
+                "time": 215.26695483333344,
+                "event": "show cue"
+            },
+            {
+                "time": 216.77356104166654,
+                "event": "show fixation"
+            },
+            {
+                "time": 217.28307499999994,
+                "event": "start sound"
+            },
+            {
+                "time": 217.78323333333344,
+                "event": "start decision window"
+            },
+            {
+                "time": 220.627813125,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 220.62794341666665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 27,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 220.6467535416665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 220.64680462500007,
+                "event": "start recording"
+            },
+            {
+                "time": 220.77187329166657,
+                "event": "start"
+            },
+            {
+                "time": 220.77394758333332,
+                "event": "show fixation"
+            },
+            {
+                "time": 221.27936912500002,
+                "event": "show cue"
+            },
+            {
+                "time": 222.7855996666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 223.2988145416665,
+                "event": "start sound"
+            },
+            {
+                "time": 223.79895962500007,
+                "event": "start decision window"
+            },
+            {
+                "time": 227.14473199999986,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 227.14484566666658,
+                "event": "done"
+            }
+        ],
+        "trial_index": 28,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 227.16348283333343,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 227.16353020833333,
+                "event": "start recording"
+            },
+            {
+                "time": 227.28972570833332,
+                "event": "start"
+            },
+            {
+                "time": 227.29181949999986,
+                "event": "show fixation"
+            },
+            {
+                "time": 227.79710783333337,
+                "event": "show cue"
+            },
+            {
+                "time": 229.30460141666651,
+                "event": "show fixation"
+            },
+            {
+                "time": 229.81327554166648,
+                "event": "start sound"
+            },
+            {
+                "time": 230.31349266666655,
+                "event": "start decision window"
+            },
+            {
+                "time": 233.29584575,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 233.29596475000005,
+                "event": "done"
+            }
+        ],
+        "trial_index": 29,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.3,
+        "stimA_condition": 0.5,
+        "events": [
+            {
+                "time": 233.31521333333342,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 233.31526512499988,
+                "event": "start recording"
+            },
+            {
+                "time": 233.4408777499999,
+                "event": "start"
+            },
+            {
+                "time": 233.44244104166648,
+                "event": "show fixation"
+            },
+            {
+                "time": 233.947335125,
+                "event": "show cue"
+            },
+            {
+                "time": 235.45378320833345,
+                "event": "show fixation"
+            },
+            {
+                "time": 235.96110141666657,
+                "event": "start sound"
+            },
+            {
+                "time": 236.46128291666662,
+                "event": "start decision window"
+            },
+            {
+                "time": 239.15852574999997,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 239.1586607083333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 30,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 337.50770441666657,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 337.50779362499986,
+                "event": "start recording"
+            },
+            {
+                "time": 337.63258558333325,
+                "event": "start"
+            },
+            {
+                "time": 337.6346441249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 338.14020854166654,
+                "event": "show cue"
+            },
+            {
+                "time": 339.64707287499994,
+                "event": "show fixation"
+            },
+            {
+                "time": 340.15578591666656,
+                "event": "start sound"
+            },
+            {
+                "time": 340.6559220416665,
+                "event": "start decision window"
+            },
+            {
+                "time": 343.4723370416665,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 343.4724531666667,
+                "event": "done"
+            }
+        ],
+        "trial_index": 31,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 343.4952538749998,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 343.4953129999998,
+                "event": "start recording"
+            },
+            {
+                "time": 343.62042983333333,
+                "event": "start"
+            },
+            {
+                "time": 343.62250412499986,
+                "event": "show fixation"
+            },
+            {
+                "time": 344.1277199583334,
+                "event": "show cue"
+            },
+            {
+                "time": 345.63460499999985,
+                "event": "show fixation"
+            },
+            {
+                "time": 346.1495468749998,
+                "event": "start sound"
+            },
+            {
+                "time": 346.64974558333336,
+                "event": "start decision window"
+            },
+            {
+                "time": 349.6833095833334,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 349.68342479166665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 32,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 349.7022749583333,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 349.70232337499976,
+                "event": "start recording"
+            },
+            {
+                "time": 349.82826966666664,
+                "event": "start"
+            },
+            {
+                "time": 349.8300741666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 350.33577862499976,
+                "event": "show cue"
+            },
+            {
+                "time": 351.8419045833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 352.35086987499983,
+                "event": "start sound"
+            },
+            {
+                "time": 352.8510097499999,
+                "event": "start decision window"
+            },
+            {
+                "time": 354.91342162499984,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 354.91351062499996,
+                "event": "done"
+            }
+        ],
+        "trial_index": 33,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 354.93179604166664,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 354.9318383333333,
+                "event": "start recording"
+            },
+            {
+                "time": 355.05816729166656,
+                "event": "start"
+            },
+            {
+                "time": 355.0602145416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 355.5657606249998,
+                "event": "show cue"
+            },
+            {
+                "time": 357.0724609166665,
+                "event": "show fixation"
+            },
+            {
+                "time": 357.5810161249998,
+                "event": "start sound"
+            },
+            {
+                "time": 358.08116833333327,
+                "event": "start decision window"
+            },
+            {
+                "time": 360.1610992916666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 360.1611770833334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 34,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 360.17969154166656,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 360.17973791666657,
+                "event": "start recording"
+            },
+            {
+                "time": 360.3057726666665,
+                "event": "start"
+            },
+            {
+                "time": 360.30754270833324,
+                "event": "show fixation"
+            },
+            {
+                "time": 360.8120672499998,
+                "event": "show cue"
+            },
+            {
+                "time": 362.3184063749999,
+                "event": "show fixation"
+            },
+            {
+                "time": 362.8313701666665,
+                "event": "start sound"
+            },
+            {
+                "time": 363.33150762499974,
+                "event": "start decision window"
+            },
+            {
+                "time": 365.0905575833334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 365.0906493333333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 35,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 365.1087343749999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 365.10878024999977,
+                "event": "start recording"
+            },
+            {
+                "time": 365.23401391666664,
+                "event": "start"
+            },
+            {
+                "time": 365.23552154166657,
+                "event": "show fixation"
+            },
+            {
+                "time": 365.7407532916667,
+                "event": "show cue"
+            },
+            {
+                "time": 367.2490407916665,
+                "event": "show fixation"
+            },
+            {
+                "time": 367.75651449999975,
+                "event": "start sound"
+            },
+            {
+                "time": 368.25669395833336,
+                "event": "start decision window"
+            },
+            {
+                "time": 370.5087473333334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 370.50888399999974,
+                "event": "done"
+            }
+        ],
+        "trial_index": 36,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 370.52729008333324,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 370.5273622499998,
+                "event": "start recording"
+            },
+            {
+                "time": 370.6534762916666,
+                "event": "start"
+            },
+            {
+                "time": 370.6558945416665,
+                "event": "show fixation"
+            },
+            {
+                "time": 371.16152345833336,
+                "event": "show cue"
+            },
+            {
+                "time": 372.66782233333345,
+                "event": "show fixation"
+            },
+            {
+                "time": 373.1814383333334,
+                "event": "start sound"
+            },
+            {
+                "time": 373.6815814583334,
+                "event": "start decision window"
+            },
+            {
+                "time": 375.9401125416665,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 375.9402445833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 37,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 375.9612130416666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 375.9612587083333,
+                "event": "start recording"
+            },
+            {
+                "time": 376.08690208333326,
+                "event": "start"
+            },
+            {
+                "time": 376.08927074999986,
+                "event": "show fixation"
+            },
+            {
+                "time": 376.59436158333335,
+                "event": "show cue"
+            },
+            {
+                "time": 378.1009279166666,
+                "event": "show fixation"
+            },
+            {
+                "time": 378.6150170833333,
+                "event": "start sound"
+            },
+            {
+                "time": 379.1151604166665,
+                "event": "start decision window"
+            },
+            {
+                "time": 381.6374659999998,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 381.6375969999998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 38,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 381.66147562499975,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 381.66152799999975,
+                "event": "start recording"
+            },
+            {
+                "time": 381.78677037499995,
+                "event": "start"
+            },
+            {
+                "time": 381.78933174999986,
+                "event": "show fixation"
+            },
+            {
+                "time": 382.29500083333335,
+                "event": "show cue"
+            },
+            {
+                "time": 383.80157804166663,
+                "event": "show fixation"
+            },
+            {
+                "time": 384.3141037083334,
+                "event": "start sound"
+            },
+            {
+                "time": 384.81424895833345,
+                "event": "start decision window"
+            },
+            {
+                "time": 387.7612305416666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 387.7613629166666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 39,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 387.78061433333335,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 387.78066124999975,
+                "event": "start recording"
+            },
+            {
+                "time": 387.9067107499999,
+                "event": "start"
+            },
+            {
+                "time": 387.9089430833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 388.41424520833345,
+                "event": "show cue"
+            },
+            {
+                "time": 389.9205922916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 390.42887679166654,
+                "event": "start sound"
+            },
+            {
+                "time": 390.9290526249998,
+                "event": "start decision window"
+            },
+            {
+                "time": 393.1173248333333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 393.1174236249998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 40,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 393.13581008333324,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 393.1358529999999,
+                "event": "start recording"
+            },
+            {
+                "time": 393.26201891666653,
+                "event": "start"
+            },
+            {
+                "time": 393.26393816666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 393.76900470833345,
+                "event": "show cue"
+            },
+            {
+                "time": 395.2754086666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 395.7844384166666,
+                "event": "start sound"
+            },
+            {
+                "time": 396.2845884999998,
+                "event": "start decision window"
+            },
+            {
+                "time": 398.16247162499974,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 398.16258433333326,
+                "event": "done"
+            }
+        ],
+        "trial_index": 41,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 398.18102366666665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 398.18107141666667,
+                "event": "start recording"
+            },
+            {
+                "time": 398.30783879166654,
+                "event": "start"
+            },
+            {
+                "time": 398.30994804166664,
+                "event": "show fixation"
+            },
+            {
+                "time": 398.81496083333343,
+                "event": "show cue"
+            },
+            {
+                "time": 400.3219235833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 400.83166458333324,
+                "event": "start sound"
+            },
+            {
+                "time": 401.3318372499999,
+                "event": "start decision window"
+            },
+            {
+                "time": 404.99947645833333,
+                "event": "response",
+                "response": "f",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 404.99959887499983,
+                "event": "done"
+            }
+        ],
+        "trial_index": 42,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 405.0188906666666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 405.01893499999994,
+                "event": "start recording"
+            },
+            {
+                "time": 405.14481349999994,
+                "event": "start"
+            },
+            {
+                "time": 405.14682091666657,
+                "event": "show fixation"
+            },
+            {
+                "time": 405.65234724999993,
+                "event": "show cue"
+            },
+            {
+                "time": 407.1584829166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 407.66765662499995,
+                "event": "start sound"
+            },
+            {
+                "time": 408.16780554166655,
+                "event": "start decision window"
+            },
+            {
+                "time": 410.38584729166666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 410.3859764166665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 43,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 410.40925158333323,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 410.40929974999983,
+                "event": "start recording"
+            },
+            {
+                "time": 410.5346835833333,
+                "event": "start"
+            },
+            {
+                "time": 410.53739899999994,
+                "event": "show fixation"
+            },
+            {
+                "time": 411.0428238333333,
+                "event": "show cue"
+            },
+            {
+                "time": 412.54910520833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 413.0574040416667,
+                "event": "start sound"
+            },
+            {
+                "time": 413.5575497499998,
+                "event": "start decision window"
+            },
+            {
+                "time": 415.7301497916666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 415.73029912499976,
+                "event": "done"
+            }
+        ],
+        "trial_index": 44,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 415.7592402916665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 415.75930249999976,
+                "event": "start recording"
+            },
+            {
+                "time": 415.88633595833323,
+                "event": "start"
+            },
+            {
+                "time": 415.88877133333324,
+                "event": "show fixation"
+            },
+            {
+                "time": 416.3940467499998,
+                "event": "show cue"
+            },
+            {
+                "time": 417.9003195416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 418.4088804999998,
+                "event": "start sound"
+            },
+            {
+                "time": 418.90902274999974,
+                "event": "start decision window"
+            },
+            {
+                "time": 420.9901360416667,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 420.9902579999999,
+                "event": "done"
+            }
+        ],
+        "trial_index": 45,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 421.00943279166665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 421.00949291666655,
+                "event": "start recording"
+            },
+            {
+                "time": 421.13431470833336,
+                "event": "start"
+            },
+            {
+                "time": 421.1363959583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 421.64143987499995,
+                "event": "show cue"
+            },
+            {
+                "time": 423.14756424999985,
+                "event": "show fixation"
+            },
+            {
+                "time": 423.6562169166665,
+                "event": "start sound"
+            },
+            {
+                "time": 424.15635774999976,
+                "event": "start decision window"
+            },
+            {
+                "time": 427.41029395833345,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 427.4111010416665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 46,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 427.43014749999986,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 427.43020699999977,
+                "event": "start recording"
+            },
+            {
+                "time": 427.55582770833337,
+                "event": "start"
+            },
+            {
+                "time": 427.5580104999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 428.06364108333344,
+                "event": "show cue"
+            },
+            {
+                "time": 429.5700999999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 430.0785102916667,
+                "event": "start sound"
+            },
+            {
+                "time": 430.57863904166663,
+                "event": "start decision window"
+            },
+            {
+                "time": 432.8565790416666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 432.8566882499998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 47,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 432.8759367916665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 432.8759917916667,
+                "event": "start recording"
+            },
+            {
+                "time": 433.00247512499993,
+                "event": "start"
+            },
+            {
+                "time": 433.00459362499976,
+                "event": "show fixation"
+            },
+            {
+                "time": 433.5099842916667,
+                "event": "show cue"
+            },
+            {
+                "time": 435.0166995416665,
+                "event": "show fixation"
+            },
+            {
+                "time": 435.5260522499999,
+                "event": "start sound"
+            },
+            {
+                "time": 436.0262497916666,
+                "event": "start decision window"
+            },
+            {
+                "time": 439.2815742083334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 439.2816883749998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 48,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 439.3003992916666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 439.3004560416665,
+                "event": "start recording"
+            },
+            {
+                "time": 439.4255403333333,
+                "event": "start"
+            },
+            {
+                "time": 439.4274209166666,
+                "event": "show fixation"
+            },
+            {
+                "time": 439.9325286666666,
+                "event": "show cue"
+            },
+            {
+                "time": 441.4396145833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 441.94817762499986,
+                "event": "start sound"
+            },
+            {
+                "time": 442.44834508333327,
+                "event": "start decision window"
+            },
+            {
+                "time": 445.00615349999987,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 445.00625633333345,
+                "event": "done"
+            }
+        ],
+        "trial_index": 49,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 445.02468104166667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 445.02473979166655,
+                "event": "start recording"
+            },
+            {
+                "time": 445.1504306249998,
+                "event": "start"
+            },
+            {
+                "time": 445.1522580833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 445.65802941666664,
+                "event": "show cue"
+            },
+            {
+                "time": 447.1646313749999,
+                "event": "show fixation"
+            },
+            {
+                "time": 447.67272258333344,
+                "event": "start sound"
+            },
+            {
+                "time": 448.17287899999985,
+                "event": "start decision window"
+            },
+            {
+                "time": 450.6219503333333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 450.62208641666655,
+                "event": "done"
+            }
+        ],
+        "trial_index": 50,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 450.6446961666667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 450.64474774999974,
+                "event": "start recording"
+            },
+            {
+                "time": 450.7705854166667,
+                "event": "start"
+            },
+            {
+                "time": 450.7724036666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 451.2774314166667,
+                "event": "show cue"
+            },
+            {
+                "time": 452.7838113749998,
+                "event": "show fixation"
+            },
+            {
+                "time": 453.2992118333333,
+                "event": "start sound"
+            },
+            {
+                "time": 453.79938449999975,
+                "event": "start decision window"
+            },
+            {
+                "time": 456.46759816666656,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 456.4677359166666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 51,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 456.48633537499984,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 456.48638554166666,
+                "event": "start recording"
+            },
+            {
+                "time": 456.61258462499984,
+                "event": "start"
+            },
+            {
+                "time": 456.6147429583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 457.12021491666667,
+                "event": "show cue"
+            },
+            {
+                "time": 458.6265264166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 459.1351054999999,
+                "event": "start sound"
+            },
+            {
+                "time": 459.63525687499975,
+                "event": "start decision window"
+            },
+            {
+                "time": 461.56519058333345,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 461.56533195833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 52,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 461.5847484166667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 461.5848051249999,
+                "event": "start recording"
+            },
+            {
+                "time": 461.71033999999975,
+                "event": "start"
+            },
+            {
+                "time": 461.71279487499976,
+                "event": "show fixation"
+            },
+            {
+                "time": 462.21792216666665,
+                "event": "show cue"
+            },
+            {
+                "time": 463.72413474999973,
+                "event": "show fixation"
+            },
+            {
+                "time": 464.23451499999976,
+                "event": "start sound"
+            },
+            {
+                "time": 464.7346604999999,
+                "event": "start decision window"
+            },
+            {
+                "time": 468.15323945833336,
+                "event": "response",
+                "response": "j",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 468.15362416666665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 53,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 468.17651608333324,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 468.17656470833333,
+                "event": "start recording"
+            },
+            {
+                "time": 468.30171879166653,
+                "event": "start"
+            },
+            {
+                "time": 468.3041711249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 468.80974924999975,
+                "event": "show cue"
+            },
+            {
+                "time": 470.3173470416665,
+                "event": "show fixation"
+            },
+            {
+                "time": 470.8304937916665,
+                "event": "start sound"
+            },
+            {
+                "time": 471.3306848333333,
+                "event": "start decision window"
+            },
+            {
+                "time": 474.62212345833325,
+                "event": "response",
+                "response": "f",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 474.62224012499985,
+                "event": "done"
+            }
+        ],
+        "trial_index": 54,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 474.64280912499987,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 474.6428626249998,
+                "event": "start recording"
+            },
+            {
+                "time": 474.77083354166655,
+                "event": "start"
+            },
+            {
+                "time": 474.7729890833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 475.27850233333345,
+                "event": "show cue"
+            },
+            {
+                "time": 476.7860008749998,
+                "event": "show fixation"
+            },
+            {
+                "time": 477.2981285833333,
+                "event": "start sound"
+            },
+            {
+                "time": 477.7983476249998,
+                "event": "start decision window"
+            },
+            {
+                "time": 480.48085487499986,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 480.4809916666667,
+                "event": "done"
+            }
+        ],
+        "trial_index": 55,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 480.50052179166653,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 480.5005694166665,
+                "event": "start recording"
+            },
+            {
+                "time": 480.6265031249999,
+                "event": "start"
+            },
+            {
+                "time": 480.6288877083333,
+                "event": "show fixation"
+            },
+            {
+                "time": 481.1341199583334,
+                "event": "show cue"
+            },
+            {
+                "time": 482.64150099999995,
+                "event": "show fixation"
+            },
+            {
+                "time": 483.15074874999993,
+                "event": "start sound"
+            },
+            {
+                "time": 483.6508911666666,
+                "event": "start decision window"
+            },
+            {
+                "time": 486.09552899999983,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 486.0956604999998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 56,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 486.11425320833325,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 486.1143129999999,
+                "event": "start recording"
+            },
+            {
+                "time": 486.2403659583334,
+                "event": "start"
+            },
+            {
+                "time": 486.2424955833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 486.7478545833334,
+                "event": "show cue"
+            },
+            {
+                "time": 488.25461258333337,
+                "event": "show fixation"
+            },
+            {
+                "time": 488.76267320833324,
+                "event": "start sound"
+            },
+            {
+                "time": 489.26281833333326,
+                "event": "start decision window"
+            },
+            {
+                "time": 491.6846366249998,
+                "event": "response",
+                "response": "j",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 491.6847887916666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 57,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 491.71552341666654,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 491.71558120833345,
+                "event": "start recording"
+            },
+            {
+                "time": 491.8413040833333,
+                "event": "start"
+            },
+            {
+                "time": 491.8437954583334,
+                "event": "show fixation"
+            },
+            {
+                "time": 492.34965770833344,
+                "event": "show cue"
+            },
+            {
+                "time": 493.8560670416665,
+                "event": "show fixation"
+            },
+            {
+                "time": 494.36414387499974,
+                "event": "start sound"
+            },
+            {
+                "time": 494.86428962499974,
+                "event": "start decision window"
+            },
+            {
+                "time": 497.67392641666663,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 497.67405412499977,
+                "event": "done"
+            }
+        ],
+        "trial_index": 58,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 497.6922849583333,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 497.6923382499998,
+                "event": "start recording"
+            },
+            {
+                "time": 497.82135916666664,
+                "event": "start"
+            },
+            {
+                "time": 497.8235136249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 498.3282631249998,
+                "event": "show cue"
+            },
+            {
+                "time": 499.8347630833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 500.3483509583333,
+                "event": "start sound"
+            },
+            {
+                "time": 500.8485685416666,
+                "event": "start decision window"
+            },
+            {
+                "time": 502.8977087499999,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 502.89781949999985,
+                "event": "done"
+            }
+        ],
+        "trial_index": 59,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.5,
+        "stimA_condition": 0.9,
+        "events": [
+            {
+                "time": 502.9160309583334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 502.91608583333334,
+                "event": "start recording"
+            },
+            {
+                "time": 503.0415547499998,
+                "event": "start"
+            },
+            {
+                "time": 503.0435633333333,
+                "event": "show fixation"
+            },
+            {
+                "time": 503.5486172499999,
+                "event": "show cue"
+            },
+            {
+                "time": 505.0549040833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 505.56350920833336,
+                "event": "start sound"
+            },
+            {
+                "time": 506.0637103749999,
+                "event": "start decision window"
+            },
+            {
+                "time": 509.10204999999985,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 509.1021976666665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 60,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 616.482213875,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 616.4823013333333,
+                "event": "start recording"
+            },
+            {
+                "time": 616.6072677499998,
+                "event": "start"
+            },
+            {
+                "time": 616.6094049166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 617.1169359166666,
+                "event": "show cue"
+            },
+            {
+                "time": 618.6250682499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 619.1334414999998,
+                "event": "start sound"
+            },
+            {
+                "time": 619.6336234583333,
+                "event": "start decision window"
+            },
+            {
+                "time": 623.3500690833333,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 623.3502062083334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 61,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 623.369238875,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 623.3692925416666,
+                "event": "start recording"
+            },
+            {
+                "time": 623.4959565416665,
+                "event": "start"
+            },
+            {
+                "time": 623.4980934999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 624.0036939583334,
+                "event": "show cue"
+            },
+            {
+                "time": 625.5103887499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 626.0198854583333,
+                "event": "start sound"
+            },
+            {
+                "time": 626.5200697499998,
+                "event": "start decision window"
+            },
+            {
+                "time": 629.8069596666666,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 629.8070747499997,
+                "event": "done"
+            }
+        ],
+        "trial_index": 62,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 629.8260194999999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 629.8260801666667,
+                "event": "start recording"
+            },
+            {
+                "time": 629.9524082916665,
+                "event": "start"
+            },
+            {
+                "time": 629.9546980416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 630.4598764583333,
+                "event": "show cue"
+            },
+            {
+                "time": 631.9661834166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 632.4745178333334,
+                "event": "start sound"
+            },
+            {
+                "time": 632.9746632916666,
+                "event": "start decision window"
+            },
+            {
+                "time": 635.9175446666667,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 635.9176667916666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 63,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 635.9365609166665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 635.9366132083334,
+                "event": "start recording"
+            },
+            {
+                "time": 636.063179875,
+                "event": "start"
+            },
+            {
+                "time": 636.0655498749999,
+                "event": "show fixation"
+            },
+            {
+                "time": 636.5712459999999,
+                "event": "show cue"
+            },
+            {
+                "time": 638.0777247916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 638.5850569999999,
+                "event": "start sound"
+            },
+            {
+                "time": 639.0851977083333,
+                "event": "start decision window"
+            },
+            {
+                "time": 642.1236937916666,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 642.1238022083334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 64,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 642.1425218333333,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 642.1425741249999,
+                "event": "start recording"
+            },
+            {
+                "time": 642.2667053749998,
+                "event": "start"
+            },
+            {
+                "time": 642.2686304999999,
+                "event": "show fixation"
+            },
+            {
+                "time": 642.7737843333333,
+                "event": "show cue"
+            },
+            {
+                "time": 644.2806445833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 644.78873025,
+                "event": "start sound"
+            },
+            {
+                "time": 645.2889057916667,
+                "event": "start decision window"
+            },
+            {
+                "time": 648.0029563333334,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 648.0030749999997,
+                "event": "done"
+            }
+        ],
+        "trial_index": 65,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 648.0263496249999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 648.0264108333334,
+                "event": "start recording"
+            },
+            {
+                "time": 648.1519741249998,
+                "event": "start"
+            },
+            {
+                "time": 648.1544176666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 648.6597603749998,
+                "event": "show cue"
+            },
+            {
+                "time": 650.1677219166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 650.6784747083333,
+                "event": "start sound"
+            },
+            {
+                "time": 651.1786142499999,
+                "event": "start decision window"
+            },
+            {
+                "time": 654.0790185416666,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 654.0791566666666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 66,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 654.0975185416665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 654.0975737499999,
+                "event": "start recording"
+            },
+            {
+                "time": 654.2231448333333,
+                "event": "start"
+            },
+            {
+                "time": 654.2252915833334,
+                "event": "show fixation"
+            },
+            {
+                "time": 654.7305118333333,
+                "event": "show cue"
+            },
+            {
+                "time": 656.2367714166666,
+                "event": "show fixation"
+            },
+            {
+                "time": 656.7440432916666,
+                "event": "start sound"
+            },
+            {
+                "time": 657.2441738333333,
+                "event": "start decision window"
+            },
+            {
+                "time": 659.3971910833333,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 659.3973327916666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 67,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 659.4157874999997,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 659.4158448333334,
+                "event": "start recording"
+            },
+            {
+                "time": 659.5417000833332,
+                "event": "start"
+            },
+            {
+                "time": 659.5439444166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 660.0492693333334,
+                "event": "show cue"
+            },
+            {
+                "time": 661.5556650833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 662.0631352499998,
+                "event": "start sound"
+            },
+            {
+                "time": 662.5632716666665,
+                "event": "start decision window"
+            },
+            {
+                "time": 664.9757088749999,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 664.9758328333334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 68,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 664.9943743333334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 664.9944307916666,
+                "event": "start recording"
+            },
+            {
+                "time": 665.120652,
+                "event": "start"
+            },
+            {
+                "time": 665.1227724583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 665.6279324583332,
+                "event": "show cue"
+            },
+            {
+                "time": 667.1342559583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 667.6467442916666,
+                "event": "start sound"
+            },
+            {
+                "time": 668.1469072499998,
+                "event": "start decision window"
+            },
+            {
+                "time": 669.9933945416666,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 669.9935348333332,
+                "event": "done"
+            }
+        ],
+        "trial_index": 69,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 670.0117001666666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 670.0117577499999,
+                "event": "start recording"
+            },
+            {
+                "time": 670.1373178333334,
+                "event": "start"
+            },
+            {
+                "time": 670.1396090416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 670.6447674999998,
+                "event": "show cue"
+            },
+            {
+                "time": 672.1511191249998,
+                "event": "show fixation"
+            },
+            {
+                "time": 672.6636169583334,
+                "event": "start sound"
+            },
+            {
+                "time": 673.1637575833334,
+                "event": "start decision window"
+            },
+            {
+                "time": 676.1741530833334,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 676.1742899166667,
+                "event": "done"
+            }
+        ],
+        "trial_index": 70,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "A|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 676.1925054583334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 676.1925618749998,
+                "event": "start recording"
+            },
+            {
+                "time": 676.3190213333334,
+                "event": "start"
+            },
+            {
+                "time": 676.3209004166666,
+                "event": "show fixation"
+            },
+            {
+                "time": 676.8258035416667,
+                "event": "show cue"
+            },
+            {
+                "time": 678.3323046249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 678.8402281666666,
+                "event": "start sound"
+            },
+            {
+                "time": 679.3403804999999,
+                "event": "start decision window"
+            },
+            {
+                "time": 681.8903749583334,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 681.8904844166665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 71,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 681.9094026249999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 681.9094597916666,
+                "event": "start recording"
+            },
+            {
+                "time": 682.0356220416667,
+                "event": "start"
+            },
+            {
+                "time": 682.0376862916665,
+                "event": "show fixation"
+            },
+            {
+                "time": 682.5428287916667,
+                "event": "show cue"
+            },
+            {
+                "time": 684.0497040416666,
+                "event": "show fixation"
+            },
+            {
+                "time": 684.5577474166665,
+                "event": "start sound"
+            },
+            {
+                "time": 685.0579018749999,
+                "event": "start decision window"
+            },
+            {
+                "time": 688.2346884166667,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 688.2347899583334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 72,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 688.2569217916665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 688.2569646666667,
+                "event": "start recording"
+            },
+            {
+                "time": 688.3823304999997,
+                "event": "start"
+            },
+            {
+                "time": 688.3843137083333,
+                "event": "show fixation"
+            },
+            {
+                "time": 688.8896535833334,
+                "event": "show cue"
+            },
+            {
+                "time": 690.3965537916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 690.9047768333334,
+                "event": "start sound"
+            },
+            {
+                "time": 691.4049491666666,
+                "event": "start decision window"
+            },
+            {
+                "time": 694.6012194583333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 694.6013435416666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 73,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 694.619956875,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 694.6200137916666,
+                "event": "start recording"
+            },
+            {
+                "time": 694.7465962499999,
+                "event": "start"
+            },
+            {
+                "time": 694.7488004583334,
+                "event": "show fixation"
+            },
+            {
+                "time": 695.2539125833333,
+                "event": "show cue"
+            },
+            {
+                "time": 696.7602976249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 697.2686130416665,
+                "event": "start sound"
+            },
+            {
+                "time": 697.7687584583333,
+                "event": "start decision window"
+            },
+            {
+                "time": 700.2586132499999,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 700.2594185416666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 74,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 700.2788579166667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 700.2789139166665,
+                "event": "start recording"
+            },
+            {
+                "time": 700.4049682916667,
+                "event": "start"
+            },
+            {
+                "time": 700.4075509583334,
+                "event": "show fixation"
+            },
+            {
+                "time": 700.9128812499999,
+                "event": "show cue"
+            },
+            {
+                "time": 702.4192996249998,
+                "event": "show fixation"
+            },
+            {
+                "time": 702.9277500416666,
+                "event": "start sound"
+            },
+            {
+                "time": 703.4278946249998,
+                "event": "start decision window"
+            },
+            {
+                "time": 705.4655812916666,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 705.4656958749998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 75,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 705.4840340416666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 705.4840794166665,
+                "event": "start recording"
+            },
+            {
+                "time": 705.6090910833333,
+                "event": "start"
+            },
+            {
+                "time": 705.6112987916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 706.1167993749999,
+                "event": "show cue"
+            },
+            {
+                "time": 707.6243417083334,
+                "event": "show fixation"
+            },
+            {
+                "time": 708.1340943333333,
+                "event": "start sound"
+            },
+            {
+                "time": 708.6342478749999,
+                "event": "start decision window"
+            },
+            {
+                "time": 711.3160152916665,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 711.3161445833333,
+                "event": "done"
+            }
+        ],
+        "trial_index": 76,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 711.3350181249999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 711.3350707499998,
+                "event": "start recording"
+            },
+            {
+                "time": 711.4615102083334,
+                "event": "start"
+            },
+            {
+                "time": 711.4635809583334,
+                "event": "show fixation"
+            },
+            {
+                "time": 711.9691245833334,
+                "event": "show cue"
+            },
+            {
+                "time": 713.4754010416665,
+                "event": "show fixation"
+            },
+            {
+                "time": 713.9838488749998,
+                "event": "start sound"
+            },
+            {
+                "time": 714.4839703749998,
+                "event": "start decision window"
+            },
+            {
+                "time": 717.2347286249998,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 717.2348269583334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 77,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 717.2605725416666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 717.2606326666665,
+                "event": "start recording"
+            },
+            {
+                "time": 717.3850887083332,
+                "event": "start"
+            },
+            {
+                "time": 717.3871884583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 717.8923906249998,
+                "event": "show cue"
+            },
+            {
+                "time": 719.3993576666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 719.9076479999998,
+                "event": "start sound"
+            },
+            {
+                "time": 720.4078308749998,
+                "event": "start decision window"
+            },
+            {
+                "time": 722.8810613749998,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 722.8811610416666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 78,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 722.8997987916665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 722.8998516666667,
+                "event": "start recording"
+            },
+            {
+                "time": 723.0258870416666,
+                "event": "start"
+            },
+            {
+                "time": 723.0276008749998,
+                "event": "show fixation"
+            },
+            {
+                "time": 723.5326444583333,
+                "event": "show cue"
+            },
+            {
+                "time": 725.0399213333334,
+                "event": "show fixation"
+            },
+            {
+                "time": 725.5472435416665,
+                "event": "start sound"
+            },
+            {
+                "time": 726.0474080833334,
+                "event": "start decision window"
+            },
+            {
+                "time": 728.8793769166665,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 728.8794878749999,
+                "event": "done"
+            }
+        ],
+        "trial_index": 79,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 728.8996094999999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 728.8996879999999,
+                "event": "start recording"
+            },
+            {
+                "time": 729.0254065833334,
+                "event": "start"
+            },
+            {
+                "time": 729.0273382499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 729.5330614583332,
+                "event": "show cue"
+            },
+            {
+                "time": 731.0416182916666,
+                "event": "show fixation"
+            },
+            {
+                "time": 731.5488258749998,
+                "event": "start sound"
+            },
+            {
+                "time": 732.0489539999998,
+                "event": "start decision window"
+            },
+            {
+                "time": 734.0187649583332,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 734.0188639166666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 80,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "right",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 734.0416024583334,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 734.0416682499998,
+                "event": "start recording"
+            },
+            {
+                "time": 734.1660482916667,
+                "event": "start"
+            },
+            {
+                "time": 734.1677094583334,
+                "event": "show fixation"
+            },
+            {
+                "time": 734.672747,
+                "event": "show cue"
+            },
+            {
+                "time": 736.1792271249998,
+                "event": "show fixation"
+            },
+            {
+                "time": 736.6867877916667,
+                "event": "start sound"
+            },
+            {
+                "time": 737.1869217083334,
+                "event": "start decision window"
+            },
+            {
+                "time": 739.8659716249998,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 739.8661017499998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 81,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 739.8851336666665,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 739.8851783749998,
+                "event": "start recording"
+            },
+            {
+                "time": 740.0115944583334,
+                "event": "start"
+            },
+            {
+                "time": 740.0139131666666,
+                "event": "show fixation"
+            },
+            {
+                "time": 740.51912375,
+                "event": "show cue"
+            },
+            {
+                "time": 742.0264546249999,
+                "event": "show fixation"
+            },
+            {
+                "time": 742.5344467499998,
+                "event": "start sound"
+            },
+            {
+                "time": 743.0346030416666,
+                "event": "start decision window"
+            },
+            {
+                "time": 745.6562554999999,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 745.6564124166665,
+                "event": "done"
+            }
+        ],
+        "trial_index": 82,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 745.6759592916666,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 745.6760066666667,
+                "event": "start recording"
+            },
+            {
+                "time": 745.8018832083334,
+                "event": "start"
+            },
+            {
+                "time": 745.8041297083333,
+                "event": "show fixation"
+            },
+            {
+                "time": 746.3088955416666,
+                "event": "show cue"
+            },
+            {
+                "time": 747.8152539999998,
+                "event": "show fixation"
+            },
+            {
+                "time": 748.3246089583334,
+                "event": "start sound"
+            },
+            {
+                "time": 748.8247564583334,
+                "event": "start decision window"
+            },
+            {
+                "time": 751.4433428333333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 751.4434592083334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 83,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 751.4626052499999,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 751.4626587499998,
+                "event": "start recording"
+            },
+            {
+                "time": 751.5893311249998,
+                "event": "start"
+            },
+            {
+                "time": 751.5916003333333,
+                "event": "show fixation"
+            },
+            {
+                "time": 752.0971565416665,
+                "event": "show cue"
+            },
+            {
+                "time": 753.6035897499997,
+                "event": "show fixation"
+            },
+            {
+                "time": 754.1108412083335,
+                "event": "start sound"
+            },
+            {
+                "time": 754.6110488333333,
+                "event": "start decision window"
+            },
+            {
+                "time": 756.9119330833333,
+                "event": "response",
+                "response": "f",
+                "performance": "Incorrect"
+            },
+            {
+                "time": 756.9120501249998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 84,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 756.9310062499998,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 756.9310580416667,
+                "event": "start recording"
+            },
+            {
+                "time": 757.0575122499998,
+                "event": "start"
+            },
+            {
+                "time": 757.0596869166667,
+                "event": "show fixation"
+            },
+            {
+                "time": 757.5649493749999,
+                "event": "show cue"
+            },
+            {
+                "time": 759.0734249999999,
+                "event": "show fixation"
+            },
+            {
+                "time": 759.5809661666666,
+                "event": "start sound"
+            },
+            {
+                "time": 760.0811756249999,
+                "event": "start decision window"
+            },
+            {
+                "time": 763.5420722083333,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 763.5421903333335,
+                "event": "done"
+            }
+        ],
+        "trial_index": 85,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|A",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 763.5602032916667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 763.5602632499998,
+                "event": "start recording"
+            },
+            {
+                "time": 763.6902449583334,
+                "event": "start"
+            },
+            {
+                "time": 763.6922517916665,
+                "event": "show fixation"
+            },
+            {
+                "time": 764.1977684166667,
+                "event": "show cue"
+            },
+            {
+                "time": 765.7044670833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 766.2140426249999,
+                "event": "start sound"
+            },
+            {
+                "time": 766.714205875,
+                "event": "start decision window"
+            },
+            {
+                "time": 770.9049836249998,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 770.9051357916666,
+                "event": "done"
+            }
+        ],
+        "trial_index": 86,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "B|B",
+        "correct_response": "j",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 770.9260779999998,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 770.9261354999998,
+                "event": "start recording"
+            },
+            {
+                "time": 771.0520192083333,
+                "event": "start"
+            },
+            {
+                "time": 771.0543038333334,
+                "event": "show fixation"
+            },
+            {
+                "time": 771.5598725833332,
+                "event": "show cue"
+            },
+            {
+                "time": 773.0663582499998,
+                "event": "show fixation"
+            },
+            {
+                "time": 773.5797717083334,
+                "event": "start sound"
+            },
+            {
+                "time": 774.0799322499998,
+                "event": "start decision window"
+            },
+            {
+                "time": 776.0342414999999,
+                "event": "response",
+                "response": "j",
+                "performance": "Correct"
+            },
+            {
+                "time": 776.0343782499998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 87,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 776.0537032916667,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 776.0537539583332,
+                "event": "start recording"
+            },
+            {
+                "time": 776.1796717916667,
+                "event": "start"
+            },
+            {
+                "time": 776.1816690833333,
+                "event": "show fixation"
+            },
+            {
+                "time": 776.6867717916665,
+                "event": "show cue"
+            },
+            {
+                "time": 778.1935679583333,
+                "event": "show fixation"
+            },
+            {
+                "time": 778.7031352916666,
+                "event": "start sound"
+            },
+            {
+                "time": 779.2032777499998,
+                "event": "start decision window"
+            },
+            {
+                "time": 781.7534131666665,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 781.7535298749998,
+                "event": "done"
+            }
+        ],
+        "trial_index": 88,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|B",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 781.7733363749998,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 781.7733910833334,
+                "event": "start recording"
+            },
+            {
+                "time": 781.8991004583332,
+                "event": "start"
+            },
+            {
+                "time": 781.9011755416667,
+                "event": "show fixation"
+            },
+            {
+                "time": 782.4059490416665,
+                "event": "show cue"
+            },
+            {
+                "time": 783.9123218333333,
+                "event": "show fixation"
+            },
+            {
+                "time": 784.4206336666665,
+                "event": "start sound"
+            },
+            {
+                "time": 784.9208156666665,
+                "event": "start decision window"
+            },
+            {
+                "time": 787.6315541666667,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 787.6316484583334,
+                "event": "done"
+            }
+        ],
+        "trial_index": 89,
+        "wid": "24-09-12-1649_setting0"
+    },
+    {
+        "cue_direction": "left",
+        "stimulus": "A|A",
+        "correct_response": "f",
+        "left_cue_condition": 0.9,
+        "stimA_condition": 0.3,
+        "events": [
+            {
+                "time": 787.6562887499998,
+                "event": "initialize",
+                "status": "ok"
+            },
+            {
+                "time": 787.6563478333334,
+                "event": "start recording"
+            },
+            {
+                "time": 787.7822847916665,
+                "event": "start"
+            },
+            {
+                "time": 787.7844126666665,
+                "event": "show fixation"
+            },
+            {
+                "time": 788.2899735416667,
+                "event": "show cue"
+            },
+            {
+                "time": 789.7969632083333,
+                "event": "show fixation"
+            },
+            {
+                "time": 790.30656225,
+                "event": "start sound"
+            },
+            {
+                "time": 790.8067496666666,
+                "event": "start decision window"
+            },
+            {
+                "time": 793.8970359583333,
+                "event": "response",
+                "response": "f",
+                "performance": "Correct"
+            },
+            {
+                "time": 793.8971903749999,
+                "event": "done"
+            }
+        ],
+        "trial_index": 90,
+        "wid": "24-09-12-1649_setting0"
+    }
+]
