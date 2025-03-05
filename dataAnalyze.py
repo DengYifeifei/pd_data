@@ -5,9 +5,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 #from dataAnalyze import DataAnalyze
-
-
-
+import copy
 
 
 
@@ -15,8 +13,9 @@ import matplotlib.pyplot as plt
 
 class DataAnalyze: 
     def __init__(self,eye_data, log_data, pivot = 'show cue') -> None:
-        self.eye_data = eye_data
-        self.log_data = pd.DataFrame(log_data)
+        self.eye_data = copy.deepcopy(eye_data)
+        
+        self.log_data = copy.deepcopy(log_data)
 
         self.pivot = pivot
         self.pivot_since_trial_start = 0.0
@@ -54,22 +53,48 @@ class DataAnalyze:
         return self.eye_data[self.eye_data['trial_index'] == trial_num]
     
 
-    def geteye_pupil_data(self, trial_num:int, exclude_EFIX = True, event: str = None, adjust_time = False, normalize = False):
-        trial_data = self.geteye_data(trial_num)
+    # def geteye_pupil_data(self, trial_num:int, exclude_EFIX = True, event: str = None, adjust_time = False, normalize = False):
+    #     trial_data = self.geteye_data(trial_num)
+    #     if not exclude_EFIX:
+    #         pupil_data = trial_data[trial_data['Pupil'].notna()]
+    #     else:
+    #         pupil_data = trial_data[(trial_data['Pupil'].notna()) & (trial_data['Start'].isna())]
+        
+    #     if event:
+    #         pupil_data = pupil_data[pupil_data['event'] == event]
+        
+    #     if adjust_time:
+    #         pupil_data.loc[:, 'adTimeEvent'] = pupil_data['TimeEvent'] - self.getlog_t_pivot(trial_num) + self.pivot_since_trial_start
+
+
+    #         #pupil_data.loc[:, f'normalized_{self.pivot}'] = 100*((pupil_data['Pupil'] - pivot_pupil)/pivot_pupil)
+    #     return pupil_data
+
+    def geteye_pupil_data(self, trial_num=None, exclude_EFIX=True, event=None, adjust_time=False, normalize=False):
+        if trial_num is not None:
+            trial_data = self.geteye_data(trial_num)
+        else:
+            trial_data = self.eye_data  # Use full dataset if trial_num is absent
+
+        if trial_data is None or trial_data.empty:
+            return pd.DataFrame()  # Return empty DataFrame if no data
+
         if not exclude_EFIX:
             pupil_data = trial_data[trial_data['Pupil'].notna()]
         else:
             pupil_data = trial_data[(trial_data['Pupil'].notna()) & (trial_data['Start'].isna())]
-        
+
         if event:
             pupil_data = pupil_data[pupil_data['event'] == event]
-        
-        if adjust_time:
-            pupil_data.loc[:, 'adTimeEvent'] = pupil_data['TimeEvent'] - self.getlog_t_pivot(trial_num) + self.pivot_since_trial_start
 
+        if adjust_time and trial_num is not None:
+            pupil_data.loc[:, 'adTimeEvent'] = (
+                pupil_data['TimeEvent'] - self.getlog_t_pivot(trial_num) + self.pivot_since_trial_start
+            )
 
-            #pupil_data.loc[:, f'normalized_{self.pivot}'] = 100*((pupil_data['Pupil'] - pivot_pupil)/pivot_pupil)
         return pupil_data
+
+
 
     def normalize(self, trial_num, pupil_data):
         pivot_pupil = self.geteye_pupil_pivot(trial_num, pupil_data)
