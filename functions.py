@@ -132,6 +132,7 @@ def plot_pupil_size(pupil_data,size=3, figsize = (10,6)):
         plt.show()
 
 
+
 def KLdivergence(prior, posterior, epsilon=1e-2):
     prior = np.array(prior)
     posterior = np.array(posterior)
@@ -214,7 +215,57 @@ def sensory_cue_posterior(stimulus, cue_direction):
 
     return posterior  
 
+def bernoulli_entropy(p):
+    """
+    Computes the entropy of a Bernoulli random variable with probability p.
+    """
+    if p == 0 or p == 1:
+        return 0  # log(0) is undefined, but entropy is 0 in these cases
+    return -p * np.log2(p) - (1 - p) * np.log2(1 - p)
 
+def block_entropy(p_x, p_y):
+    """
+    Computes the joint entropy of two independent Bernoulli random variables.
+    """
+    return bernoulli_entropy(p_x) + bernoulli_entropy(p_y)
+
+def generate_masks(data):
+    num_filter = 4
+    index_range = np.zeros((num_filter+1, int(len(data) / 30)))  # Make sure dimensions match
+    # print(index_range)
+    index_range[0, :] = np.arange(0, len(data), 30)  # Adjust the range
+
+    # Adjust the rest of the rows
+    for i in range(1, num_filter+1):
+        index_range[i, :] = index_range[i - 1, :] + 5
+        
+    index_ranges =[]
+    # Extract the first and last row from index_range
+    for i in range(index_range.shape[0]):
+        start_indices = index_range[0, :].astype(int)
+        end_indices = index_range[i, :].astype(int)
+
+    # Create list of tuples pairing corresponding elements
+        index_ranges.append(list(zip(start_indices, end_indices)))
+
+    # Print result
+    # print(index_ranges)
+
+    # Initialize an empty list to store excluded indices for each exclusion method
+    all_exclude_indices = []
+
+    # Iterate over each exclusion method in index_ranges
+    for i, ranges in enumerate(index_ranges):
+        if i == 0:
+            exclude_indices = []  # No exclusion for the first case
+        else:
+            # Flatten the current list of (start, end) tuples
+            exclude_indices = [idx for idx in range(len(x)) if any(start <= idx < end for start, end in ranges)]
+        
+        all_exclude_indices.append(exclude_indices)  # Store excluded indices for this exclusion method
+
+    # Print result
+    return all_exclude_indices
 
 class DataAnalyze_new:
     def __init__(self, file_name) -> None:
@@ -224,18 +275,79 @@ class DataAnalyze_new:
             _eye_data = pd.read_csv(f'data/processed/v1/eyetracking/{file_name}/all.csv')
             self.eye_raw = adjust_trial_index(_eye_data) 
             self.eye_raw.to_csv(f"data/processed/v1/eyetracking/{file_name}/all_adin.csv", index=False)
-        print("eye data obtained")
-        self.log_data = fetch_log(file_name)
-        print("log data obtained")
+        if self.eye_raw is not None and not self.eye_raw.empty:
+            print("Eye raw data obtained")
+        else:
+            print("Eye raw data not obtained or is empty")
 
+        self.log_data = fetch_log(file_name)
+        if self.log_data is not None and not self.log_data.empty:
+            print("Log data obtained")
+        else:
+            print("Log data not obtained or is empty")
+
+        # Calculate number of trials and blocks
         self.num_trials = len(self.log_data['trial_index'].unique())
-        self.pupil_statistics_raw = np.zeros((self.num_trials, 3, 2))  # 3 events, 2 statistics (max, mean)
+        self.num_blocks = math.ceil(self.num_trials / 30)  # Ensure blocks round up if necessary
+
+        print(self.num_blocks)
+
+        # Initialize pupil statistics array
+        self.pupil_statistics_raw = np.zeros((self.num_trials, 3, 3))  # 3 events, 3 statistics (max, mean, median)
+
+        # Compute trial entropy
+        trial_entropy = self.log_data.apply(
+            lambda row: block_entropy(row['left_cue_condition'], row['stimA_condition']), axis=1
+        )
+        # Initialize an empty list to store trial parameters
+        self.trial_parameters = []
+        # Iterate through the log data in chunks of 30 rows
+        for i in range(self.num_blocks):
+            idx = i * 30
+            
+            # Extract the relevant columns ('left_cue_condition' and 'stimA_condition') for the current block
+            block_sample = self.log_data.iloc[idx]
+            
+            # Get the values of 'left_cue_condition' and 'stimA_condition' for this block
+            left_cue_conditions = block_sample['left_cue_condition']
+            stimA_conditions = block_sample['stimA_condition']
+            
+            # Append the extracted conditions to the trial parameters
+            self.trial_parameters.append((left_cue_conditions, stimA_conditions))
+
+        # Ensure no out-of-bounds error when creating block_entropy
+        self.block_entropy = [trial_entropy[i * 30] for i in range(self.num_blocks)]
 
     def show_performance(self):
         '''incorrect trial'''
         self.incorrect_count = (self.log_data["performance"] == "Incorrect").sum()
         self.incorrect_trial_list = self.log_data.loc[self.log_data["performance"] == "Incorrect", "trial_index"]
-        print("incorrect count:", self.incorrect_count, "incorrect trial list:", self.incorrect_trial_list)
+        print("incorrect count:", self.incorrect_count)
+        print("incorrect trial list:", self.incorrect_trial_list.values)
+        # Assuming self.num_block and self.incorrect_trial_list are already defined
+        print("Number of incorrect trials per block:")
+
+        # Initialize a list to store the count of incorrect trials per block
+        incorrect_trials_per_block = []
+
+        # Iterate through each block and count the trials within the range [i*30, (i+1)*30)
+        for i in range(self.num_blocks):
+            # Define the start and end of the block range
+            block_start = i * 30
+            block_end = (i + 1) * 30
+            
+            # Count how many trials in incorrect_trial_list fall within this range
+            count_in_block = self.incorrect_trial_list.between(block_start, block_end - 1).sum()
+            
+            # Append the count to the list
+            incorrect_trials_per_block.append(count_in_block)
+            
+            # Print the count for each block
+            print(f"Block {i}:{self.trial_parameters[i]}, {count_in_block} incorrect trials")
+
+        # Optionally, store the result in self for later use
+        self.incorrect_trials_per_block = incorrect_trials_per_block
+
 
         '''rt plot'''
         bins = np.arange(0, self.log_data["rt"].max() + 0.5, 0.5)  # Binning in 0.5s intervals (adjust if needed)
@@ -251,6 +363,60 @@ class DataAnalyze_new:
 
         # Show the plot
         plt.show()
+    
+    def visualize_raw_processed_pair(self, eye_data=None, trial_index=None):
+        try:
+            # Corrected condition check for 'trial_index'
+            if trial_index is None:  
+                trial_index = eye_data['trial_index'].unique().tolist()
+
+            # Corrected condition check for 'eye_data'
+            if eye_data is None:
+                _eye_data = self.eye_raw[self.eye_raw['trial_index']==trial_index]
+            else:
+                _eye_data = eye_data  # Use provided eye_data directly if available
+            
+            # Fixed syntax for .dropna() and improved logic
+            pupil_data = _eye_data['Pupil'].dropna()  
+            filtered_pupil_data = self.filter_eye_data_diff_blink(pupil_data, [trial_index])
+
+            fig, axes = plt.subplots(1, 2, figsize=(8, 2))  # 3 rows, 1 column of subplots
+
+            # First subplot
+            axes[0].scatter(pupil_data['TimeEvent'], pupil_data['Pupil'], color='blue', alpha=0.6, s=3)
+            axes[0].set_title(f"Processed Trial Data - Trial {pupil_data['trial_index'].iloc[0]}")
+            axes[0].set_xlabel('TimeEvent')
+            axes[0].set_ylabel('Pupil Size')
+            axes[0].grid(True)
+
+            # Second subplot
+            axes[1].scatter(filtered_pupil_data['TimeEvent'], filtered_pupil_data['Pupil'], color='green', alpha=0.6, s=3)
+            axes[1].set_title(f"Processed Event Data - Trial {filtered_pupil_data['trial_index'].iloc[0]}")
+            axes[1].set_xlabel('TimeEvent')
+            axes[1].set_ylabel('Pupil Size')
+            axes[1].grid(True)
+
+            # Adjust layout for better spacing
+            plt.tight_layout()
+
+            # Show the plot
+            plt.show()
+        except IndexError:
+            raise IndexError("Please specify a valid trial index")
+
+
+
+    def visualize_all(self, specify_range: tuple = None):
+        if specify_range:
+            start, end = specify_range  # Correct unpacking
+        else:
+            start = 1
+            end =  self.num_trials +1
+        for i in range(start,end):
+            self.visualize_raw_processed_pair(trial_index=i)
+
+
+
     
     def filter_eye_data_diff_blink(self, eye_data, trial_index_list, rep = 3, dot_size = 4, diff_lower_bound=-2, diff_upper_bound=2, alpha_inner=0.5, alpha_outer = 0.5, inner_bound=0.2, outer_bound=0.22, plot = False):
 
@@ -411,51 +577,46 @@ class DataAnalyze_new:
                     # Calculate the pupil statistics for the current event
                     pupil_max = processed_event_data['Pupil'].max()  # Max pupil size in the time window
                     pupil_mean = processed_event_data['Pupil'].mean()  # Mean pupil size in the time window
+                    pupil_median = processed_event_data['Pupil'].median()  # median pupil size in the time window
 
                     # Store the statistics (max, mean) in the correct spot in the array
                     self.pupil_statistics_raw[trial_index - 1, event_num, 0] = pupil_max
                     self.pupil_statistics_raw[trial_index - 1, event_num, 1] = pupil_mean
+                    self.pupil_statistics_raw[trial_index - 1, event_num, 2] = pupil_median
 
         return self.pupil_statistics_raw
     
-    def get_pupil_max(self):
-
-
-    def generate_masks(data, num_filter = 4):
-    num_filter = 4
-    index_range = np.zeros((num_filter+1, int(len(data) / 30)))  # Make sure dimensions match
-    # print(index_range)
-    index_range[0, :] = np.arange(0, len(data), 30)  # Adjust the range
-
-    # Adjust the rest of the rows
-    for i in range(1, num_filter+1):
-        index_range[i, :] = index_range[i - 1, :] + 5
+    def select_pupil_statistics(self, statistics: str, event: str):
+        # Dictionary mappings for statistics and event
+        statistics_mapping = {
+            'max': 0,
+            'mean': 1,
+            'median': 2
+        }
         
-    index_ranges =[]
-    # Extract the first and last row from index_range
-    for i in range(index_range.shape[0]):
-        start_indices = index_range[0, :].astype(int)
-        end_indices = index_range[i, :].astype(int)
-
-    # Create list of tuples pairing corresponding elements
-        index_ranges.append(list(zip(start_indices, end_indices)))
-
-    # Print result
-    # print(index_ranges)
-
-    # Initialize an empty list to store excluded indices for each exclusion method
-    all_exclude_indices = []
-
-    # Iterate over each exclusion method in index_ranges
-    for i, ranges in enumerate(index_ranges):
-        if i == 0:
-            exclude_indices = []  # No exclusion for the first case
-        else:
-            # Flatten the current list of (start, end) tuples
-            exclude_indices = [idx for idx in range(len(x)) if any(start <= idx < end for start, end in ranges)]
+        event_mapping = {
+            'sound': 1,
+            'cue': 0,
+            'response': 2
+        }
         
-        all_exclude_indices.append(exclude_indices)  # Store excluded indices for this exclusion method
+        # Validate inputs
+        if statistics not in statistics_mapping:
+            raise ValueError(f"Invalid statistic: {statistics}. Valid options are 'max', 'mean', 'median'.")
+        if event not in event_mapping:
+            raise ValueError(f"Invalid event: {event}. Valid options are 'sound', 'cue', 'response'.")
 
-    # Print result
-    return all_exclude_indices
+        # Get the corresponding codes from the dictionaries
+        statistics_code = statistics_mapping[statistics]
+        event_code = event_mapping[event]
+        
+        # Access the pupil statistics
+        pupil_stats = self.pupil_statistics_raw[:, event_code, statistics_code]
+        
+        return pupil_stats
+
+
+
+
+    
 
